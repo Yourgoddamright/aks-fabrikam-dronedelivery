@@ -833,7 +833,7 @@
                     {
                         "name": "npsystem",
                         "count": 3,
-                        "vmSize": "Standard_D2ps_v5",
+                        "vmSize": "Standard_D2pls_v5",
                         "osDiskSizeGB": 80,
                         "osDiskType": "Ephemeral",
                         "osType": "Linux",
@@ -858,7 +858,7 @@
                     {
                         "name": "npuser01",
                         "count": 2,
-                        "vmSize": "Standard_D2ps_v5",
+                        "vmSize": "Standard_D2pls_v5",
                         "osDiskSizeGB": 120,
                         "osDiskType": "Ephemeral",
                         "osType": "Linux",
