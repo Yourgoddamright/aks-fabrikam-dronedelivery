@@ -832,7 +832,7 @@
                 "agentPoolProfiles": [
                     {
                         "name": "npsystem",
-                        "count": 0,
+                        "count": 1,
                         "vmSize": "Standard_E2bs_v5",
                         "osDiskSizeGB": 80,
                         "osDiskType": "Ephemeral",
@@ -855,7 +855,7 @@
                     },
                     {
                         "name": "npuser01",
-                        "count": 3,
+                        "count": 1,
                         "vmSize": "Standard_E2bs_v5",
                         "osDiskSizeGB": 120,
                         "osDiskType": "Ephemeral",
@@ -903,7 +903,7 @@
                 "nodeResourceGroup": "[variables('nodeResourceGroupName')]",
                 "enableRBAC": true,
                 "enablePodSecurityPolicy": false,
-                "maxAgentPools": 2,
+                "maxAgentPools": 1,
                 "networkProfile": {
                     "networkPlugin": "azure",
                     "networkPolicy": "azure",
