@@ -17,7 +17,7 @@
         },
         "resourceGroupLocation": {
             "type": "string",
-            "defaultValue": "eastus"
+            "defaultValue": "southeastasia"
         }
     },
     "variables": {
