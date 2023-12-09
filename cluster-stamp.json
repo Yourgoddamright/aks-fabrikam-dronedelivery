@@ -849,9 +849,7 @@
                         "enableNodePublicIP": false,
                         "maxPods": 30,
                         "availabilityZones": [
-                            "1",
-                            "2",
-                            "3"
+                            "1"
                         ],
                         "upgradeSettings": {
                             "maxSurge": "33%"
@@ -876,9 +874,7 @@
                         "enableNodePublicIP": false,
                         "maxPods": 30,
                         "availabilityZones": [
-                            "1",
-                            "2",
-                            "3"
+                            "1"
                         ],
                         "upgradeSettings": {
                             "maxSurge": "33%"
