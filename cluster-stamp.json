@@ -833,7 +833,7 @@
                     {
                         "name": "npsystem",
                         "count": 3,
-                        "vmSize": "Standard_DC1s_v3",
+                        "vmSize": "Standard_F2s_v2",
                         "osDiskSizeGB": 80,
                         "osDiskType": "Ephemeral",
                         "osType": "Linux",
@@ -849,7 +849,7 @@
                         "enableNodePublicIP": false,
                         "maxPods": 30,
                         "availabilityZones": [
-                            "3"
+                            "1"
                         ],
                         "upgradeSettings": {
                             "maxSurge": "33%"
@@ -858,7 +858,7 @@
                     {
                         "name": "npuser01",
                         "count": 2,
-                        "vmSize": "Standard_DC1s_v3",
+                        "vmSize": "Standard_F2s_v2",
                         "osDiskSizeGB": 120,
                         "osDiskType": "Ephemeral",
                         "osType": "Linux",
@@ -874,7 +874,7 @@
                         "enableNodePublicIP": false,
                         "maxPods": 30,
                         "availabilityZones": [
-                            "3"
+                            "1"
                         ],
                         "upgradeSettings": {
                             "maxSurge": "33%"
