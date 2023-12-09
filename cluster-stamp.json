@@ -40,7 +40,7 @@
             }
         },
         "location": {
-            "defaultValue": "southeastasia",
+            "defaultValue": "eastus2",
             "type": "string",
             "allowedValues": [
                 "australiaeast",
@@ -94,7 +94,7 @@
             }
         },
         "kubernetesVersion": {
-            "defaultValue": "1.27.7",
+            "defaultValue": "1.19.9",
             "type": "string"
         },
         "acrResourceGroupName": {
@@ -837,8 +837,8 @@
                         "osDiskSizeGB": 80,
                         "osDiskType": "Ephemeral",
                         "osType": "Linux",
-			"minCount": 1,
-                        "maxCount": 1,
+                        "minCount": 3,
+                        "maxCount": 4,
                         "vnetSubnetID": "[variables('vnetNodePoolSubnetResourceId')]",
                         "enableAutoScaling": true,
                         "type": "VirtualMachineScaleSets",
@@ -849,7 +849,9 @@
                         "enableNodePublicIP": false,
                         "maxPods": 30,
                         "availabilityZones": [
-                            "1"
+                            "1",
+                            "2",
+                            "3"
                         ],
                         "upgradeSettings": {
                             "maxSurge": "33%"
@@ -862,8 +864,8 @@
                         "osDiskSizeGB": 120,
                         "osDiskType": "Ephemeral",
                         "osType": "Linux",
-			"minCount": 1,
-                        "maxCount": 1,
+                        "minCount": 2,
+                        "maxCount": 5,
                         "vnetSubnetID": "[variables('vnetNodePoolSubnetResourceId')]",
                         "enableAutoScaling": true,
                         "type": "VirtualMachineScaleSets",
@@ -874,7 +876,9 @@
                         "enableNodePublicIP": false,
                         "maxPods": 30,
                         "availabilityZones": [
-                            "1"
+                            "1",
+                            "2",
+                            "3"
                         ],
                         "upgradeSettings": {
                             "maxSurge": "33%"
@@ -907,7 +911,7 @@
                 "nodeResourceGroup": "[variables('nodeResourceGroupName')]",
                 "enableRBAC": true,
                 "enablePodSecurityPolicy": false,
-                "maxAgentPools": 1,
+                "maxAgentPools": 2,
                 "networkProfile": {
                     "networkPlugin": "azure",
                     "networkPolicy": "azure",
