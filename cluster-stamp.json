@@ -833,7 +833,7 @@
                     {
                         "name": "npsystem",
                         "count": 1,
-                        "vmSize": "Standard_D4ds_v4",
+                        "vmSize": "Standard_D2as_v5",
                         "osDiskSizeGB": 80,
                         "osDiskType": "Ephemeral",
                         "osType": "Linux",
@@ -858,7 +858,7 @@
                     {
                         "name": "npuser01",
                         "count": 1,
-                        "vmSize": "Standard_D4ds_v4",
+                        "vmSize": "Standard_D2as_v5",
                         "osDiskSizeGB": 120,
                         "osDiskType": "Ephemeral",
                         "osType": "Linux",
