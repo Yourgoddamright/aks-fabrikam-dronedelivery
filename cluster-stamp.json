@@ -832,7 +832,7 @@
                 "agentPoolProfiles": [
                     {
                         "name": "npsystem",
-                        "count": 1,
+                        "count": 0,
                         "vmSize": "Standard_E2bs_v5",
                         "osDiskSizeGB": 80,
                         "osDiskType": "Ephemeral",
@@ -855,7 +855,7 @@
                     },
                     {
                         "name": "npuser01",
-                        "count": 1,
+                        "count": 3,
                         "vmSize": "Standard_E2bs_v5",
                         "osDiskSizeGB": 120,
                         "osDiskType": "Ephemeral",
